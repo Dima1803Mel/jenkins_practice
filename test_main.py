@@ -7,5 +7,5 @@ def test_add():
 def test_subtract():
     assert subtract(10, 5) == 5
 
-# if __name__ == '__main__':
-#     pytest.main()
+if __name__ == '__main__':
+    pytest.main()
