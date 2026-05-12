@@ -4,8 +4,8 @@ pipeline {
          stage('Checkout') {  
             steps {   
                 git url:'<URL>', branch: 'main'  
-                }         
-            } 
+            }         
+        } 
 
         stage('Install') { 
             steps { 
